@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <style>
+
+        .box3{
+            width: 500px;
+            height: 70px;
+            background-color: lightgreen;
+            margin-top: 50px;
+        }
+
+        ul{
+            list-style-type: none;
+        }
+        ul li a{
+            text-decoration: none;
+            float: left;
+            margin-right: 50px;
+            margin-top: 25px;
+            color: midnightblue;
+        }
+        .main2{
+            width: 500px;
+            margin: 0px auto;
+        }
+        @font-face{
+            src:url("Daybreak Bold.otf");
+            font-family: 'Daybreak Bold';
+        }
+        .font{
+            font-family: 'Daybreak Bold';
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main2">
+    <div class="box3">
+
+        <ul class="font">
+            <li><a href="phone2.html">Home</a></li>
+            <li><a href="MyContacts.html">MyContacts</a></li>
+            <li><a href="ContactReport.html">Contact Report</a></li>
+            <li><a href="Search.html">Search</a></li>
+        </ul>
+    </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-6" style="margin-top: 100px;">
+                <div class="panel panel-success">
+                    <div class="panel-heading">AddContact</div>
+                    <div class="panel-body">
+                        <form>
+
+                            <div class="form-group">
+                                <input type="text" name="fulltname" placeholder="fullname" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="number" name="phonenumber" placeholder="phonenumber" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-info">Save Contact</button>
+
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+                <button type="button" class="btn btn-primary"><a href="MyContacts2_persian.html" style="color: white;">Persian</a></button>
+            </div>
+
+        <div class="col-md-6" style="margin-top: 100px;text-align: center;">
+
+            <table class="table">
+                <tr class="info">
+                    <td>name</td>
+                    <td>family</td>
+                    <td>phone number</td>
+                    <td>delete</td>
+                    <td>edit</td>
+                </tr>
+
+                <tr class="success">
+                    <td>sara</td>
+                    <td>abbasi</td>
+                    <td>0917111111</td>
+                    <td><a href="#"><span class="glyphicon glyphicon-trash"></span></a></td>
+                    <td><a href="#"><span class="glyphicon glyphicon-edit"></span></a></td>
+                </tr>
+
+                <tr class="warning">
+                    <td>zohreh</td>
+                    <td>chenari</td>
+                    <td>0917222222</td>
+                    <td><a href="#"><span class="glyphicon glyphicon-trash"></span></a></td>
+                    <td><a href="#"><span class="glyphicon glyphicon-edit"></span></a></td>
+                </tr>
+
+                <tr class="danger">
+                    <td>negar</td>
+                    <td>moaveni</td>
+                    <td>0917333333</td>
+                    <td><a href="#"><span class="glyphicon glyphicon-trash"></span></a></td>
+                    <td><a href="#"><span class="glyphicon glyphicon-edit"></span></a></td>
+                </tr>
+
+                <tr class="info">
+                    <td>hasti</td>
+                    <td>jahani</td>
+                    <td>0917444444</td>
+                    <td><a href="#"><span class="glyphicon glyphicon-trash"></span></a></td>
+                    <td><a href="#"><span class="glyphicon glyphicon-edit"></span></a></td>
+                </tr>
+
+            </table>
+        </div>
+
+        </div>
+    </div>
+</body>
+</html>
